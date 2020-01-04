@@ -3,7 +3,7 @@ import { theme as defaultTheme } from "@chakra-ui/core"
 export const theme = {
   ...defaultTheme,
   colors: {
-    ...colors,
+    ...defaultTheme.colors,
     brand: {
       50: "#fff0f4",
       100: "#FFE6ED",

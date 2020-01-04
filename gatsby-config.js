@@ -16,6 +16,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-alias-imports`,
+      options: {
+        aliases: {
+          "@styles": `src/styles`,
+          "@components": `src/components`,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -25,13 +34,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: "gatsby-plugin-chakra-ui",
-      options: {
-        isResettingCSS: true,
-        isUsingColorMode: false,
       },
     },
     `gatsby-plugin-offline`,
