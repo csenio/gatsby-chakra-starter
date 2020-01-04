@@ -1,11 +1,11 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import { ThemeProvider, CSSReset } from "@chakra-ui/core"
+import React from 'react'
+import PropTypes from 'prop-types'
+import {useStaticQuery, graphql} from 'gatsby'
+import {ThemeProvider, CSSReset} from '@chakra-ui/core'
 
-import { theme } from "@styles/theme"
+import {theme} from '@styles/theme'
 
-const Layout = ({ children }) => {
+const Layout = ({children}) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

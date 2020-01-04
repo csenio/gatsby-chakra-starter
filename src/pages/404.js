@@ -1,5 +1,5 @@
-import React from "react"
-import { Layout, Seo } from "@components"
+import React from 'react'
+import {Layout, Seo} from '@components'
 
 const NotFoundPage = () => (
   <Layout>

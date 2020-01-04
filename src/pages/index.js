@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from "gatsby"
-import { Button, useTheme } from "@chakra-ui/core"
+import React from 'react'
+import {Link} from 'gatsby'
+import {Button, useTheme} from '@chakra-ui/core'
 
-import { Layout, Seo } from "../components"
+import {Layout, Seo} from '../components'
 
 const IndexPage = () => {
   return (
